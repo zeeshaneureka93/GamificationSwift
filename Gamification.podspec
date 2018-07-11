@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
           s.source              = { :git => "https://github.com/zeeshaneureka93/GamificationSwift.git", :tag => "1.0.0" }
           #9.
           s.source_files     = "Gamification", "Gamification/**/*.{h,m,swift}"
+	s.dependency 'Alamofire'
     end
