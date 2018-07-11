@@ -15,7 +15,6 @@
 		B3247FDC20F4BF31004017B1 /* JSONRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3247FDB20F4BF31004017B1 /* JSONRequestManager.swift */; };
 		B324800A20F4CE34004017B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324800920F4CE34004017B1 /* Constants.swift */; };
 		B324801420F4CFAB004017B1 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324801320F4CFAA004017B1 /* Console.swift */; };
-		B324801620F4CFE2004017B1 /* GamificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324801520F4CFE2004017B1 /* GamificationParser.swift */; };
 		B324801820F4CFFD004017B1 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324801720F4CFFD004017B1 /* Keys.swift */; };
 		B324801C20F4D0A9004017B1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324801B20F4D0A9004017B1 /* ReachabilityManager.swift */; };
 		B324802020F4D0E6004017B1 /* HudView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B324801E20F4D0E6004017B1 /* HudView.xib */; };
@@ -23,7 +22,6 @@
 		B324802320F4D165004017B1 /* NetworkToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324802220F4D164004017B1 /* NetworkToast.swift */; };
 		B324802520F4D188004017B1 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324802420F4D188004017B1 /* Toast.swift */; };
 		B324802720F4D222004017B1 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324802620F4D222004017B1 /* InsetLabel.swift */; };
-		B324802920F4D287004017B1 /* HudView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B324802820F4D287004017B1 /* HudView.xib */; };
 		B324803320F4D39E004017B1 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324803220F4D39D004017B1 /* BundleExtension.swift */; };
 		B324804220F4D950004017B1 /* PSPointSystemAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324804120F4D950004017B1 /* PSPointSystemAction.swift */; };
 		B3C550BA20F5ECD8009AE627 /* PSAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550B920F5ECD8009AE627 /* PSAction.swift */; };
@@ -56,7 +54,6 @@
 		B3247FDB20F4BF31004017B1 /* JSONRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONRequestManager.swift; sourceTree = "<group>"; };
 		B324800920F4CE34004017B1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B324801320F4CFAA004017B1 /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
-		B324801520F4CFE2004017B1 /* GamificationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamificationParser.swift; sourceTree = "<group>"; };
 		B324801720F4CFFD004017B1 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		B324801B20F4D0A9004017B1 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		B324801E20F4D0E6004017B1 /* HudView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HudView.xib; sourceTree = "<group>"; };
@@ -64,7 +61,6 @@
 		B324802220F4D164004017B1 /* NetworkToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkToast.swift; sourceTree = "<group>"; };
 		B324802420F4D188004017B1 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		B324802620F4D222004017B1 /* InsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
-		B324802820F4D287004017B1 /* HudView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HudView.xib; sourceTree = "<group>"; };
 		B324803220F4D39D004017B1 /* BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
 		B324804120F4D950004017B1 /* PSPointSystemAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPointSystemAction.swift; sourceTree = "<group>"; };
 		B3C550B920F5ECD8009AE627 /* PSAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSAction.swift; sourceTree = "<group>"; };
@@ -145,8 +141,6 @@
 				B324803220F4D39D004017B1 /* BundleExtension.swift */,
 				B324800920F4CE34004017B1 /* Constants.swift */,
 				B324802620F4D222004017B1 /* InsetLabel.swift */,
-				B324801520F4CFE2004017B1 /* GamificationParser.swift */,
-				B324802820F4D287004017B1 /* HudView.xib */,
 				B324802220F4D164004017B1 /* NetworkToast.swift */,
 				B324801B20F4D0A9004017B1 /* ReachabilityManager.swift */,
 				B324802420F4D188004017B1 /* Toast.swift */,
@@ -283,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B324802920F4D287004017B1 /* HudView.xib in Resources */,
 				B324802020F4D0E6004017B1 /* HudView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +364,6 @@
 				B324802320F4D165004017B1 /* NetworkToast.swift in Sources */,
 				B3247FDC20F4BF31004017B1 /* JSONRequestManager.swift in Sources */,
 				B3C550BC20F609CB009AE627 /* PSLevel.swift in Sources */,
-				B324801620F4CFE2004017B1 /* GamificationParser.swift in Sources */,
 				B324802520F4D188004017B1 /* Toast.swift in Sources */,
 				B324802120F4D0E6004017B1 /* HudView.swift in Sources */,
 				B324800A20F4CE34004017B1 /* Constants.swift in Sources */,
