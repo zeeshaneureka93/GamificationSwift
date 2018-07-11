@@ -29,7 +29,7 @@
 		B3C550BA20F5ECD8009AE627 /* PSAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550B920F5ECD8009AE627 /* PSAction.swift */; };
 		B3C550BC20F609CB009AE627 /* PSLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550BB20F609CA009AE627 /* PSLevel.swift */; };
 		B3C550BE20F60A5C009AE627 /* PSBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550BD20F60A5C009AE627 /* PSBadge.swift */; };
-		B3C550C020F61CD5009AE627 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550BF20F61CD4009AE627 /* UIViewExtention.swift */; };
+		B3C550FE20F62E43009AE627 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C550FD20F62E43009AE627 /* UIViewExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 		B3C550B920F5ECD8009AE627 /* PSAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSAction.swift; sourceTree = "<group>"; };
 		B3C550BB20F609CA009AE627 /* PSLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSLevel.swift; sourceTree = "<group>"; };
 		B3C550BD20F60A5C009AE627 /* PSBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSBadge.swift; sourceTree = "<group>"; };
-		B3C550BF20F61CD4009AE627 /* UIViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtention.swift; path = ../../CoreDirection/CoreDirection/Classes/Extentions/UIViewExtention.swift; sourceTree = "<group>"; };
+		B3C550FD20F62E43009AE627 /* UIViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
 		C443E4B9452A9B18082D4F93 /* Pods-GamificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamificationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamificationTests/Pods-GamificationTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8407B075D3E756C76B0EAA5 /* Pods_GamificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +139,7 @@
 		B3247FC120F4BE23004017B1 /* Gamification */ = {
 			isa = PBXGroup;
 			children = (
+				B3C550FD20F62E43009AE627 /* UIViewExtention.swift */,
 				B3C550C120F61D59009AE627 /* PSFunctions */,
 				B324801D20F4D0E6004017B1 /* HudView */,
 				B324803220F4D39D004017B1 /* BundleExtension.swift */,
@@ -150,7 +151,6 @@
 				B324801B20F4D0A9004017B1 /* ReachabilityManager.swift */,
 				B324802420F4D188004017B1 /* Toast.swift */,
 				B324801720F4CFFD004017B1 /* Keys.swift */,
-				B3C550BF20F61CD4009AE627 /* UIViewExtention.swift */,
 				B324801320F4CFAA004017B1 /* Console.swift */,
 				B3247FDB20F4BF31004017B1 /* JSONRequestManager.swift */,
 				B3247FC220F4BE23004017B1 /* Gamification.h */,
@@ -364,9 +364,9 @@
 				B3C550BE20F60A5C009AE627 /* PSBadge.swift in Sources */,
 				B324802720F4D222004017B1 /* InsetLabel.swift in Sources */,
 				B324801420F4CFAB004017B1 /* Console.swift in Sources */,
-				B3C550C020F61CD5009AE627 /* UIViewExtention.swift in Sources */,
 				B324801820F4CFFD004017B1 /* Keys.swift in Sources */,
 				B324803320F4D39E004017B1 /* BundleExtension.swift in Sources */,
+				B3C550FE20F62E43009AE627 /* UIViewExtention.swift in Sources */,
 				B3C550BA20F5ECD8009AE627 /* PSAction.swift in Sources */,
 				B324802320F4D165004017B1 /* NetworkToast.swift in Sources */,
 				B3247FDC20F4BF31004017B1 /* JSONRequestManager.swift in Sources */,
