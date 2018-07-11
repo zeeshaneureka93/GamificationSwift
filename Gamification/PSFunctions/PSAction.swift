@@ -8,7 +8,7 @@
 
 import Alamofire
 
-class PSAction: NSObject {
+public class PSAction: NSObject {
     typealias successHandler = (Any?) -> Void
     typealias errorHandler = (NSError?) -> Void
     class func getActionsForCurrentUser(action method: String,

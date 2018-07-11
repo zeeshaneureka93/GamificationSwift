@@ -8,7 +8,7 @@
 
 import Alamofire
 
-class PSBadge: NSObject {
+public class PSBadge: NSObject {
     class func getBadgesForCurrentUser(action method: String,
                                        parameters: Parameters,
                                        showProgress: Bool = true,

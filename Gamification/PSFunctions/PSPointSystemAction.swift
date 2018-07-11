@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PSPointSystemAction: NSObject {
+public class PSPointSystemAction: NSObject {
     var secretKey = ""
     var userId = ""
     var userName = ""

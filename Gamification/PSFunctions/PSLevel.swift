@@ -7,7 +7,7 @@
 //
 
 import Alamofire
-class PSLevel: NSObject {
+public class PSLevel: NSObject {
     class func getLevelsForCurrentUser(action method: String,
                                        parameters: Parameters,
                                        showProgress: Bool = true,

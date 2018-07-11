@@ -46,7 +46,7 @@
 		7B9761ABAA723EA50BB2D5D1 /* Pods-GamificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamificationTests/Pods-GamificationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F3BFE6F22076F6303FDA8A9 /* Pods-Gamification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gamification/Pods-Gamification.release.xcconfig"; sourceTree = "<group>"; };
 		B3247FBF20F4BE23004017B1 /* Gamification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gamification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3247FC220F4BE23004017B1 /* Gamification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gamification.h; sourceTree = "<group>"; };
+		B3247FC220F4BE23004017B1 /* Gamification.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = Gamification.h; sourceTree = "<group>"; };
 		B3247FC320F4BE23004017B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3247FC820F4BE23004017B1 /* GamificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3247FCD20F4BE23004017B1 /* GamificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationTests.swift; sourceTree = "<group>"; };
